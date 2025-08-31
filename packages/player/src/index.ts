@@ -50,7 +50,8 @@ app.use(cors());
 app.use(express.json());
 
 const playerServer = new PlayerServer(config);
-const port = config.server.port;
+let port = config.server.port;
+port = 8080;
 const host = config.server.host;
 
 // 辅助函数：在AI请求后刷新Langfuse数据
