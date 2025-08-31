@@ -1,10 +1,9 @@
 {
   "server": {
-    "port": 3001,
     "host": "0.0.0.0"
   },
   "ai": {
-    "model": "anthropic/claude-3-haiku",
+   "model": "google/gemini-2.5-flash-image-preview:free",
     "maxTokens": 150,
     "temperature": 0.8,
     "provider": "openrouter"
